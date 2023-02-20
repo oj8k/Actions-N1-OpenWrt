@@ -33,7 +33,7 @@
   - [x] 添加第三方插件 luci-app-vssr
   - [x] 编译 ZeroTier
   - [x] 添加第三方插件 luci-app-amlogic
-  - [x] 
+  - [x] unblockneteasemusic
 
 **精简项**：
   - [x] luci-app-accesscontrol
