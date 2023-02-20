@@ -25,3 +25,5 @@ cp -r package-temp/small/* package/lean/
 mv -f package-temp/lua-maxminddb package/lean/
 mv -f package-temp/luci-app-vssr package/lean/
 rm -rf package-temp
+# Modify default IP
+sed -i 's/192.168.2.1/192.168.2.2/g' package/base-files/files/bin/config_generate
