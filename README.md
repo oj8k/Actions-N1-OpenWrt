@@ -33,7 +33,7 @@
   - [x] 添加第三方插件 luci-app-vssr
   - [x] 编译 ZeroTier
   - [x] 添加第三方插件 luci-app-amlogic
-  - [x] 添加第三方插件 luci-app-adguardhome
+  - [x] 
 
 **精简项**：
   - [x] luci-app-accesscontrol
