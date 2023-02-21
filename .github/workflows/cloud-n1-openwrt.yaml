@@ -16,7 +16,8 @@ env:
   CONFIG_SH: config.sh
   UPLOAD_FIRMWARE: true
   TZ: Asia/Shanghai
-  KERNEL_VERSION: 6.1.10
+  KERNEL_VERSION: 6.1.10_5.15.50
+  
 
 jobs:
   build_openwrt:
@@ -100,6 +101,7 @@ jobs:
         OPENWRT_ARMVIRT: openwrt/bin/targets/*/*/*.tar.gz
         PACKAGE_SOC: s905d
         KERNEL_VERSION_NAME: ${{ env.KERNEL_VERSION }}
+        KERNEL_AUTO_LATEST: true
         WHOAMI: huangqian8
 
     - name: Organize files
