@@ -28,7 +28,7 @@
   - [x] 修改架构适配斐讯 N1 盒子
   - [x] 添加 Perl依赖
   - [x] 添加主题 opentomacat 并设置为默认
-  - [x] 添加第三方插件 luci-app-openclash
+  - [x] 
   - [x] 启用 Docker （系统——启动项：启动）
   - [x] 添加第三方插件 luci-app-passwall
   - [x] 
