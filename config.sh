@@ -44,8 +44,6 @@ CONFIG_PACKAGE_containerd=y
 CONFIG_PACKAGE_coreutils=y
 CONFIG_PACKAGE_coreutils-base64=y
 CONFIG_PACKAGE_coreutils-nohup=y
-CONFIG_PACKAGE_docker=y
-CONFIG_PACKAGE_dockerd=y
 CONFIG_PACKAGE_dosfstools=y
 CONFIG_PACKAGE_f2fs-tools=y
 CONFIG_PACKAGE_f2fsck=y
@@ -138,7 +136,6 @@ CONFIG_PACKAGE_luci-i18n-amlogic-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-docker-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-dockerman-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-ramfree-zh-cn=y
-CONFIG_PACKAGE_luci-lib-docker=y
 CONFIG_PACKAGE_luci-theme-opentomcat=y
 CONFIG_PACKAGE_luci-theme-argon=y
 CONFIG_PACKAGE_mount-utils=y
@@ -194,7 +191,6 @@ CONFIG_PACKAGE_simple-obfs-client=y
 CONFIG_PACKAGE_tar=y
 CONFIG_PACKAGE_terminfo=y
 CONFIG_PACKAGE_tini=y
-CONFIG_PACKAGE_trojan=y
 CONFIG_PACKAGE_ttyd=y
 CONFIG_PACKAGE_unzip=y
 CONFIG_PACKAGE_uuidgen=y
@@ -218,32 +214,36 @@ CONFIG_PACKAGE_kmod-shortcut-fe-cm=y
 CONFIG_PACKAGE_kmod-tcp-bbr=y
 CONFIG_PACKAGE_luci-lib-fs=y
 CONFIG_PACKAGE_miniupnpd=y
-CONFIG_PACKAGE_vsftpd-alt=y
 CONFIG_VSFTPD_USE_UCI_SCRIPTS=y
 CONFIG_PACKAGE_luci-app-unblockmusic_INCLUDE_UnblockNeteaseMusic_NodeJS=y
 CONFIG_PACKAGE_luci-app-unblockmusic_INCLUDE_UnblockNeteaseMusic_Go=y
 CONFIG_PACKAGE_luci-app-unblockmusic=y
 CONFIG_PACKAGE_luci-app-aliyundrive-webdav=y
 CONFIG_PACKAGE_luci-i18n-passwall-zh-cn=y
-CONFIG_FEED_passwall=y
 CONFIG_PACKAGE_luci-app-passwall=y
-CONFIG_PACKAGE_luci-app-passwall_Iptables_Transparent_Proxy=y
-CONFIG_PACKAGE_luci-app-passwall_Nftables_Transparent_Proxy=y
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Brook=y
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_ChinaDNS_NG=y
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Haproxy=y
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Hysteria=y
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_NaiveProxy=y
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Libev_Client=y
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Rust_Client=y
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_ShadowsocksR_Libev_Client=y
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Simple_Obfs=y
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Trojan_GO=y
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Trojan_Plus=y
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray=y
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray_Geodata=y
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray_Plugin=y
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Xray=y
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Xray_Plugin=y
-CONFIG_TARGET_ROOTFS_PARTSIZE=1024
+CONFIG_PACKAGE_luci-app-filetransfer=y
+CONFIG_PACKAGE_luci-app-netdata=y
+# CONFIG_PACKAGE_luci-app-vlmcsd is not set
+# CONFIG_PACKAGE_luci-app-wol is not set
+# CONFIG_PACKAGE_luci-app-accesscontrol is not set
+# CONFIG_PACKAGE_luci-app-arpbind is not set
+# CONFIG_PACKAGE_luci-app-ddns is not set
+# CONFIG_PACKAGE_luci-app-filetransfer is not set
+# CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-ng is not set
+# CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-webui is not set
+# CONFIG_PACKAGE_luci-app-turboacc is not set
+# CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_BBR_CCA is not set
+# CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_PDNSD is not set
+# CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_SHORTCUT_FE_CM is not set
+# CONFIG_PACKAGE_luci-app-upnp is not set
+# CONFIG_PACKAGE_luci-app-vsftpd is not set
+# CONFIG_PACKAGE_luci-app-vssr_INCLUDE_ShadowsocksR_Libev_Server is not set
+# CONFIG_PACKAGE_luci-app-vssr_INCLUDE_Trojan is not set
+# CONFIG_TARGET_IMAGES_GZIP is not set
+# CONFIG_TARGET_ROOTFS_CPIOGZ is not set
+# CONFIG_TARGET_ROOTFS_EXT4FS is not set
+# CONFIG_TARGET_ROOTFS_INITRAMFS is not set
+# CONFIG_TARGET_ROOTFS_SQUASHFS is not set
+# CONFIG_LIBMBEDTLS_HAVE_ARMV8CE_AES is not set
+# CONFIG_PACKAGE_kmod-inet-diag is not set
 EOF
