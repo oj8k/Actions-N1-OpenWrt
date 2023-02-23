@@ -31,7 +31,7 @@
   - [x] 
   - [x] 启用 Docker （系统——启动项：启动）
   - [x] 添加第三方插件 luci-app-passwall
-  - [x]  
+  - [x]   
   - [x] 添加第三方插件 luci-app-amlogic
   - [x] unblockneteasemusic
 
