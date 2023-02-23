@@ -28,6 +28,5 @@ sed -i "s/bootstrap/$default_theme/g" feeds/luci/modules/luci-base/root/etc/conf
 #mv -f package-temp/luci-app-vssr package/lean/
 #rm -rf package-temp
 
-echo "src-git helloworld1 https://github.com/fw876/helloworld.git" >> ./feeds.conf.default
 echo "src-git kenzo https://github.com/kenzok8/openwrt-packages" >> ./feeds.conf.default
 echo "src-git small https://github.com/kenzok8/small" >> ./feeds.conf.default
