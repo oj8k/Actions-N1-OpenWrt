@@ -21,7 +21,7 @@
 说明：
 - 本项目使用 Github Actions 下载 [Lean](https://github.com/coolsnowwolf/lede) 的 `Openwrt` 源码仓库，进行云编译。
 - 本项目使用定时编译（北京时间每周日下午4点开始自动运行编译）及触发编译（更新script.sh后可开始编译）两种方式。
-- 本项目编译固件适配斐讯 N1 盒子，如需刷机，可直接下载 [releases](https://github.com/huangqian8/Cloud-N1-OpenWrt/releases) 内固件。
+- 本项目编译固件适配斐讯 N1 盒子，如需刷机，可直接下载 [releases](https://github.com/oj8k/Cloud-N1-OpenWrt/releases) 内固件。
 - 本项目相对源码默认设置做了如下更改：
 
 **增强项**：（**打勾项**默认**编译**入固件；**未打勾项**默认**不编译**入固件。）
@@ -30,20 +30,24 @@
   - [x] 添加主题 opentomacat 并设置为默认
   - [x] 修改登录IP为 192.168.2.2，网关 192.168.2.1 DNS为 223.6.6.6，关闭DHCP服务（旁路由配置）关闭桥接接口
   - [x] 启用Docker （系统——启动项：启动）
-  - [x] 添加第三方插件 luci-app-passwall
-  - [x]   
+  - [x] 添加第三方插件 luci-app-passwall   
   - [x] 添加第三方插件 luci-app-amlogic
-  - [x] unblockneteasemusic
-
+  - [x] 添加第三方插件 luci-app-unblockmusic
+  - [x] 添加第三方插件 luci-app-netdata 
+  - [x] 添加第三方插件 luci-app-ramfree
+  - [x] 添加第三方插件 luci-app-aliyundrive-webdav
+  - [x] 添加第三方插件 luci-app-nlbwmon   
+  
 **精简项**：
-  - [x] luci-app-accesscontrol
-  - [x] luci-app-arpbind
   - [x] luci-app-ddns
-  - [x] luci-app-filetransfer
   - [x] luci-app-rclone
-  - [x] luci-app-turboacc
   - [x] luci-app-upnp
   - [x] luci-app-vsftpd
+  - [x] luci-app-adguardhome
+  - [x] luci-app-vlmcsd
+  - [x] luci-app-wol
+  - [x] Include Binary
+  - [x] luci-app-ssr-plus
 
 ![N1_OpenWRT.png](https://i.loli.net/2021/08/27/u4318mKdQlYtek2.png)
 
